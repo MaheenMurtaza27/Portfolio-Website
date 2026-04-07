@@ -92,7 +92,7 @@ ul li a:hover::before{
 /* header content  */
 
 .content{
-    height: 90vh;
+    padding: 30px 0;
     position: relative;
 }
 
@@ -124,14 +124,14 @@ h4, p{
 /* about sec  */
 
 .about-me-sec{
-    min-height: 100vh;
+    padding: 30px 0;
     background-color: var(--secondary-shade);
     color: var(--primary-color);
 }
 
 .about-me-sec hr{
     border: 2px solid red;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .about-content img{
@@ -140,8 +140,8 @@ h4, p{
 }
 
 .about-content ul{
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .about-content span{
@@ -178,7 +178,6 @@ h4, p{
 }
 
 /* portfolio sec  */
-
 .portfolio-sec{
     height: 110vh;
     background-color: burlywood;
@@ -224,9 +223,7 @@ h4, p{
 .portfolio-child button{
     margin: 15px;
 }
-
-/* experience sec  */
-
+/* Experience sec start */
 .experience-sec{
     height: 35vh;
     background-color: var(--secondary-shade);
@@ -303,7 +300,7 @@ h4, p{
 
 .contact-us-sec{
     background-color: darkgray;
-    height: 50vh;
+    min-height: 50vh;
     padding: 35px 0;
 }
 
@@ -312,7 +309,7 @@ h4, p{
 }
 
 .contact-details{
-    padding-top: 4rem;
+    padding-top: 1.5rem;
 }
 
 .contact-details h5{
@@ -397,3 +394,21 @@ footer{
     
 } */
  /* Default (desktop) styles */
+ /* ========================= */
+/* BLOGS SECTION (ADVANCED) */
+/* ========================= */
+
+/* BLOG SECTION */
+.blogs-sec {
+    padding: 60px 0;
+    background-color: var(--secondary-shade);
+    color: var(--primary-color);
+    margin-top: -80px;    
+    padding-top: 140px;      
+}
+.blogs h3 {
+    margin-top: 0;
+}
+html{
+    scroll-behavior: smooth;
+}

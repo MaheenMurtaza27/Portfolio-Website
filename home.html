@@ -14,19 +14,21 @@
 </head>
 <body>
     <!-- header section start  -->
+     <header id="home"></header>
     <header>
         <div class="head-section layout">
             <div class="nav-bar flex space-between align-center">
                 <div class="logo uppercase f-w-700 letter-spacing2"><span>Maheen</span> Murtaza</div>
                 <div class="nav-links">
                    
-                    <ul class="flex f-w-600">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Experience</a></li>
-                        <li><a href="#">Contact Me</a></li>
-                    </ul>
+                <ul class="flex f-w-600">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
                 </div>
                 
                 <button class="btn hire-me-btn">Hire Me</button>
@@ -54,6 +56,7 @@
         </div>
     </header>        
     <!-- about section start  -->
+     <section class="about-me-sec" id="about"></section>
     <section class="about-me-sec">
         <div class="about-sec layout">
             <h3 class="uppercase pd-t-30 text-center">About Me</h3>
@@ -85,10 +88,11 @@ Always learning, always improving, driven to create work that stands out.
     </section>
     <!-- about section end  -->
 
-    <!-- portfolio section start  -->
+    <!-- services section start  -->
+     <section class="services-sec" id="services"></section>
     <section class="portfolio-sec">
         <div class="portfolio layout">
-            <h3 class="uppercase text-center pd-30">Portfolio</h3>
+            <h3 class="uppercase text-center pd-30">Services</h3>
             <div class="portolio-parent flex justify-center align-center text-center">
                 <div class="portfolio-child">
                     <img src="Assets/OIP.webp" alt="">
@@ -117,26 +121,59 @@ My aim is to build digital spaces where users connect, share, and grow.</p>
             </div>
         </div>
     </section>
-    <!-- portfolio section end  -->
+    <!-- services section end  -->
+                   <!-- Blog Sec Start -->
+        <section class="blogs-sec" id="blogs">
+    <div class="blogs layout">
+        <h3 class="uppercase text-center pd-30">Blogs</h3>
 
+        <div class="blogs-parent flex justify-center align-center text-center">
+
+            <div class="blog-child">
+                <img src="https://images.unsplash.com/photo-1760008486593-a85315610136?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGVzaWduJTIwdHJlbmRzfGVufDB8fDB8fHww" alt="">
+                <h3>Latest Design Trends</h3>
+                <p>Explore modern web design trends and how they improve user experience.</p>
+                 <button class="btn blog-btn">Read More</button>
+            </div>
+
+            <div class="blog-child">
+                <img src="https://images.unsplash.com/photo-1642132652860-471b4228023e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D" alt="">
+                <h3>Responsive Design Tips</h3>
+                <p>Learn how to create websites that work perfectly on all devices.</p>
+                <button class="btn blog-btn">Read More</button>
+            </div>
+
+            <div class="blog-child">
+                <img src="https://images.unsplash.com/photo-1674027001834-719c347d1eca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGltcHJvdmluZyUyMHdlYnNpdGUlMjBzcGVlZHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                <h3>Improving Website Speed</h3>
+                <p>Tips and techniques to make your website faster and more efficient.</p>
+                       <button class="btn blog-btn">Read More</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+                          <!-- Blog Sec End -->
     <!-- experience section start  -->
+
+<section class="experience-sec" id="experience">
     <section class="experience-sec">
         <div class="experience layout">
             <h3 class="uppercase pd-30 text-center">Experience</h3>
             <div class="experience-details flex space-between text-center">
                 <div class="col">
                     <h3>10+</h3>
-                    <p>Complete Website</p>
+                    <p>Complete Websites</p>
                 </div>
 
                 <div class="col">
                     <h3>50</h3>
-                    <p>Landing Page</p>
+                    <p>Landing Pages</p>
                 </div>
 
                 <div class="col">
                     <h3>15</h3>
-                    <p>Client</p>
+                    <p>Clients</p>
                 </div>
 
                 <div class="col">
@@ -212,29 +249,42 @@ My aim is to build digital spaces where users connect, share, and grow.</p>
     <!-- testimonal section end -->
 
     <!-- contact-us section start  -->
-    <section class="contact-us-sec">
-        <div class="contact-us layout">
-            <h3 class="text-center uppercase pd-30">Contact Me</h3>
-            <div class="contact-details flex space-between align-center">
-                <div class="left-sec">
-                    <h5>Main Branch</h5>
-                    <p>The MIT <br> Main Auto Bhan Road, <br>Hyderabad, Sindh - (022)3411371</p>
-                </div>
-                <div class="center-sec">
-                    <h5>Contact No.</h5>
-                    <p>Mobile No. +92 336 8244951</p>
-                    <h5>Email Id</h5>
-                    <p>maheensiyal27@gmail.com</p>
-                </div>
-                <div class="right-sec text-center">
-                    <form action="">
-                        Email : <input type="email" id="email-id"> <br>
-                        <button class="btn btn2">Subscribe</button>
-                    </form>
-                </div>
+   <!-- contact-us section start -->
+<section class="contact-us-sec" id="contact">
+    <div class="contact-us layout">
+        <h3 class="text-center uppercase pd-30">Contact Me</h3>
+
+        <div class="contact-details flex space-between align-center">
+            
+            <div class="left-sec">
+                <h5>Main Branch</h5>
+                <p>
+                    The MIT <br>
+                    Main Auto Bhan Road, <br>
+                    Hyderabad, Sindh - (022)3411371
+                </p>
             </div>
+
+            <div class="center-sec">
+                <h5>Contact No.</h5>
+                <p>Mobile No. +92 336 8244951</p>
+
+                <h5>Email Id</h5>
+                <p>maheensiyal27@gmail.com</p>
+            </div>
+
+            <div class="right-sec text-center">
+                <form>
+                    Email :
+                    <input type="email" id="email-id"><br>
+                    <button class="btn btn2">Subscribe</button>
+                </form>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
+<!-- contact-us section end -->
     <!-- contact-us section end  -->
 
     <!-- footer section  -->
@@ -245,3 +295,7 @@ My aim is to build digital spaces where users connect, share, and grow.</p>
     </footer>
 </body>   
     </html> 
+
+
+
+
